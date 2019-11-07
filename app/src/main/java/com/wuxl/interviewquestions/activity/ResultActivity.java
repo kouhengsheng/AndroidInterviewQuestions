@@ -22,7 +22,7 @@ import com.wuxl.interviewquestions.bean.JavaQuestions;
 import com.wuxl.interviewquestions.bean.JavaWebQuestions;
 import com.wuxl.interviewquestions.bean.Subject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 import static com.wuxl.interviewquestions.AppConfig.ANDROID_BASE_FLAG;
@@ -36,9 +36,9 @@ import static com.wuxl.interviewquestions.AppConfig.JAVA_WEB_FLAG;
  */
 public class ResultActivity extends AppCompatActivity {
 
-    @Bind(R.id.text_ask)
+    @BindView(R.id.text_ask)
     TextView textAsk;
-    @Bind(R.id.text_answer)
+    @BindView(R.id.text_answer)
     TextView textAnswer;
 
     private Subject question;//android基础

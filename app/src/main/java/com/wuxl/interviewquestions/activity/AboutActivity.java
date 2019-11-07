@@ -21,7 +21,7 @@ import com.wuxl.interviewquestions.bean.SubmitQuestions;
 import com.wuxl.interviewquestions.utils.AppUtils;
 import com.wuxl.interviewquestions.utils.SendMsg;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.bmob.v3.exception.BmobException;
@@ -33,17 +33,17 @@ import cn.bmob.v3.listener.SaveListener;
  */
 public class AboutActivity extends AppCompatActivity {
 
-    @Bind(R.id.et_question)
+    @BindView(R.id.et_question)
     EditText etQuestion;
-    @Bind(R.id.submit)
+    @BindView(R.id.submit)
     Button submit;
-    @Bind(R.id.alipay)
+    @BindView(R.id.alipay)
     LinearLayout alipay;
-    @Bind(R.id.versionName)
+    @BindView(R.id.versionName)
     TextView versionName;
-    @Bind(R.id.versionDescription)
+    @BindView(R.id.versionDescription)
     LinearLayout versionDescription;
-    @Bind(R.id.githubUrl)
+    @BindView(R.id.githubUrl)
     LinearLayout githubUrl;
 
     private Snackbar snackbar = null;

@@ -11,12 +11,12 @@ import com.wuxl.interviewquestions.AppConfig;
 import com.wuxl.interviewquestions.R;
 import com.wuxl.interviewquestions.utils.CacheUtils;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SettingActivity extends AppCompatActivity {
 
-    @Bind(R.id.is_show_javaweb)
+    @BindView(R.id.is_show_javaweb)
     Switch isShowJavaweb;
 
     private String CACHE_DIR = null;//默认缓存目录

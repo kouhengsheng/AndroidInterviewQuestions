@@ -22,7 +22,7 @@ import com.wuxl.interviewquestions.utils.SendMsg;
 
 import java.lang.reflect.Field;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -39,21 +39,21 @@ public class MainActivity extends AppCompatActivity {
 
     private String CACHE_DIR = null;
 
-    @Bind(R.id.btn_java)
+    @BindView(R.id.btn_java)
     LinearLayout btnJava;
-    @Bind(R.id.btn_android_base)
+    @BindView(R.id.btn_android_base)
     LinearLayout btnAndroidBase;
-    @Bind(R.id.btn_android_senior)
+    @BindView(R.id.btn_android_senior)
     LinearLayout btnAndroidSenior;
-    @Bind(R.id.btn_java_web)
+    @BindView(R.id.btn_java_web)
     LinearLayout btnJavaWeb;
-    @Bind(R.id.img_java)
+    @BindView(R.id.img_java)
     ImageView imgJava;
-    @Bind(R.id.img_android_base)
+    @BindView(R.id.img_android_base)
     ImageView imgAndroidBase;
-    @Bind(R.id.img_android_senior)
+    @BindView(R.id.img_android_senior)
     ImageView imgAndroidSenior;
-    @Bind(R.id.img_java_web)
+    @BindView(R.id.img_java_web)
     ImageView imgJavaWeb;
 
     private Intent intent = new Intent();
